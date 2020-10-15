@@ -48,9 +48,13 @@ public class CycleConfig : OptionInterface
         this.presetTitle = new OpLabel(rectPos + new Vector2(this.cycleRect.size.x / 2, this.cycleRect.size.y - 150f), new Vector2(0f, 0f), "PRESETS", FLabelAlignment.Center, true);
         this.presetDescription = new OpLabel(rectPos + new Vector2(this.cycleRect.size.x / 2, this.cycleRect.size.y - 175f), new Vector2(0f, 0f), "Choose from four different presets or manually enter the number you want by\nclicking on the boxes above and entering the desired number", FLabelAlignment.Center, false);
         this.presetDefault = new OpSimpleButton(presetPos + new Vector2(30f, 30f), new Vector2(80f, 30f), "default", "DEFAULT");
+        this.presetDefault.description = "Reset cycle numbers to their defaults";
         this.presetEasy = new OpSimpleButton(presetPos + new Vector2(120f, 30f), new Vector2(80f, 30f), "easy", "EASY");
+        this.presetEasy.description = "Start with more cycles, and recieve more from Five Pebbles";
         this.presetHard = new OpSimpleButton(presetPos + new Vector2(210f, 30f), new Vector2(80f, 30f), "hard", "HARD");
+        this.presetHard.description = "Start with less cycles, and recieve less from Five Pebbles";
         this.presetCure = new OpSimpleButton(presetPos + new Vector2(300f, 30f), new Vector2(80f, 30f), "cure", "CURE");
+        this.presetCure.description = "Start with the default number of cycles, but visiting Five Pebbles will essentially cure Hunter's illness";
         //Credits
         this.credits = new OpLabel(rectPos + new Vector2(this.cycleRect.size.x / 2, -12f), new Vector2(0f, 0f), "Made by LeeMoriya", FLabelAlignment.Center, false);
         this.Tabs[0].AddItems(this.presetTitle, this.presetDescription, this.presetDefault, this.presetEasy, this.presetHard, this.presetCure, this.credits);

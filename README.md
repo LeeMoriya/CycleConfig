@@ -1,7 +1,11 @@
 # CycleConfig
 A Rain World mod providing controls to adjust the length of cycles and the limited number given to Hunter. This mod requires ConfigMachine and optionally suppors AutoUpdate.
 
+## Hunter Cycles
+
 ![CycleMenu1](https://i.imgur.com/IuBcAwF.png)
+
+## Cycle Length
 
 ![CycleMenu2](https://i.imgur.com/4HtxRaY.png)
 

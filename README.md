@@ -13,6 +13,7 @@ Adjust the minimum and maximum length of each cycle or set a fixed cycle length.
 
 ## Requirements
 This mod requires ConfigMachine, download it from [[Here]](https://drive.google.com/open?id=1NIE8conaoI1OOHevi4K9tvOG4v-NIfYf)
+
 This mod also supports AutoUpdate.
 ## Download
 Get the latest release [[Here]](https://github.com/LeeMoriya/CycleConfig/releases/tag/v1.1)

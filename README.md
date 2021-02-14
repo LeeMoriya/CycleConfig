@@ -3,6 +3,7 @@ A Rain World mod providing controls to adjust the length of cycles and the limit
 
 ## Hunter Cycles
 Adjust the limited number of cycles Hunter starts with and the number given to them by Five Pebbles.
+
 ![CycleMenu1](https://i.imgur.com/IuBcAwF.png)
 
 ## Cycle Length

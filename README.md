@@ -1,4 +1,4 @@
-# CycleConfig
+# CycleConfig ![img](https://img.shields.io/github/downloads/LeeMoriya/CycleConfig/total?style=for-the-badge)
 A Rain World mod providing controls to adjust the length of cycles and the limited number given to Hunter. This mod requires ConfigMachine and optionally supports AutoUpdate.
 
 ## Hunter Cycles
